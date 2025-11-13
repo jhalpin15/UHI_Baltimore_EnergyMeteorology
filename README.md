@@ -62,7 +62,7 @@ In 2050, under both CMIP scenarios, the Baltimore UHI will **increase significan
 ## Results and Visuals
 All graphs, data cleaning steps, and analysis are presented in the notebook below:
 
-**[View Full Notebook with Graphs (index.html)](https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/)**
+**[View Full Notebook with Graphs (index.html)](https://jhalpin15.github.io/UHI_Baltimore_EnergyMeteorology/)**
 
 ---
 
