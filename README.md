@@ -1,37 +1,68 @@
-# UHI_Baltimore_EnergyMeteorology
-Determining Current and Future UHI for Baltimore, MD
-Project Outline:
-Determine the current Baltimore Urban Heat Island (UHI) and use local weather data and weather data from the Climate Model Intercomparison Project (CMIP) to estimate the impact of Climate Change on the Baltimore UHI in 2050.
----> Evaluate how well CMIP historical simulations capture the observed temperature patterns at urban and rural stations near Baltimore, and estimate the regional-scale bias in representing the Baltimore UHI.
+# Determining Current and Future Urban Heat Island (UHI) for Baltimore, MD
 
-Using the following experiments from CMIP:
-Historical
-SSP2-4.5 — this is a medium level projection which is plausible with some regulations
-SSP3-7.0 — this is the projection if actions that lead to climate change are unmitigated 
+### Author
+Jenna Halpin  
+Johns Hopkins University | Civil and Systems Engineering | Fall 2025  
 
-Variable:
-Near surface air temperature
+---
 
-Model:
-NASA Earth Exchange Global Daily Downscaled Projections (NEX-GDDP-CMIP6) dataset (has finer resolution)
+## Project Overview
+This project determines the **current Baltimore Urban Heat Island (UHI)** and uses both local weather data and data from the **Climate Model Intercomparison Project (CMIP)** to estimate the **impact of climate change on the Baltimore UHI in 2050**.
 
-Outline:
-1. Use Baltimore weather station data to classify Baltimore current UHI
-2. Use CMIP to verify/compare classification
-3. Bias correction (if needed)
-4. Apply to the 2 future projection models for Baltimore
-5. Analyze how these climate change models and impact UHI
+### Research Objective
+> Evaluate how well CMIP historical simulations capture the observed temperature patterns at urban and rural stations near Baltimore, and estimate the regional-scale bias in representing the Baltimore UHI.
 
+---
 
-Initial Hypothesis:
-In 2050, in both models, the UHI for Baltimore will increase significantly. This increase will be caused due to higher temperatures and due to the current cooling mitigation strategies not working at never before seen elevated temperatures.
+## Data and Model Information
 
+### Experiments Used
+- **Historical**
+- **SSP2-4.5:** Medium-level projection assuming moderate global mitigation efforts  
+- **SSP3-7.0:** High-emission projection assuming limited mitigation actions
 
-Data:
-Observed Data from National Centers for Environmental Information from the Baltimore ****
-Date Ranges: 1999-01-14 through 2017-01-14
-1999-01-14 to 2014-01-14******
+### Variable
+- Near-surface air temperature (`tas`)
 
+### Climate Model
+- **NASA Earth Exchange Global Daily Downscaled Projections (NEX-GDDP-CMIP6)** dataset  
+  - Provides finer spatial resolution suitable for regional-scale climate analysis.
 
-Future Projections from CMIP data (ssp245 and ssp370)
-Date Ranges: 2041-2060
+### Observed Data
+- Source: **NOAA National Centers for Environmental Information (NCEI)**
+- Stations: Urban (Baltimore City) and Rural (BWI Airport)
+- Date Range: **1999-01-14 through 2017-01-14** (subset 1999–2014 used for CMIP overlap)
+
+### Projected Data
+- CMIP6 Scenarios: `ssp245` and `ssp370`
+- Date Range: **2041–2060**
+
+---
+
+## Methods and Workflow
+
+1. **Classify Current UHI**
+   - Calculate temperature differences between city and rural stations.
+2. **Verify and Compare with CMIP Historical Data**
+   - Evaluate how well CMIP historical simulations replicate observed UHI magnitudes and variability.
+3. **Bias Correction**
+   - Apply correction methods to align CMIP data with observed station data.
+4. **Future Projections**
+   - Apply bias-corrected models to future scenarios (SSP2-4.5 and SSP3-7.0).
+5. **Visualization**
+   - Generate time-series plots, bias correction figures, and projected UHI maps.
+
+---
+
+## Initial Hypothesis
+In 2050, under both CMIP scenarios, the Baltimore UHI will **increase significantly** due to higher background temperatures and the **diminishing effectiveness of current cooling mitigation strategies** under elevated climate conditions.
+
+---
+
+## Results and Visuals
+All graphs, data cleaning steps, and analysis are presented in the notebook below:
+
+**[View Full Notebook with Graphs (index.html)](https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/)**
+
+---
+## 📁 Repository Structure
