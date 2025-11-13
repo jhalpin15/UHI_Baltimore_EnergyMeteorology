@@ -13,8 +13,7 @@ Variable:
 Near surface air temperature
 
 Model:
-GFDL-ESM4 (USA)
-Geophysical Fluid Dynamics Laboratory - Earth System Model 4
+NASA Earth Exchange Global Daily Downscaled Projections (NEX-GDDP-CMIP6) dataset (has finer resolution)
 
 Outline:
 1. Use Baltimore weather station data to classify Baltimore current UHI
@@ -31,8 +30,8 @@ In 2050, in both models, the UHI for Baltimore will increase significantly. This
 Data:
 Observed Data from National Centers for Environmental Information from the Baltimore ****
 Date Ranges: 1999-01-14 through 2017-01-14
-1999-01-14 to 2017-01-14
+1999-01-14 to 2014-01-14******
 
 
 Future Projections from CMIP data (ssp245 and ssp370)
-Date Ranges: 2041-2060 or 2036-2055
+Date Ranges: 2041-2060
