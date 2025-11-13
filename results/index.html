@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Figures and Results</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    h1 { text-align: center; }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    .caption { text-align: center; margin-top: 5px; }
+  </style>
+</head>
+<body>
+  <h1>Figures and Results</h1>
+  <div class="gallery">
+    <div>
+      <img src="figure1.png" alt="Figure 1">
+      <div class="caption">Figure 1: Description</div>
+    </div>
+    <div>
+      <img src="figure2.png" alt="Figure 2">
+      <div class="caption">Figure 2: Description</div>
+    </div>
+  </div>
+</body>
+</html>
