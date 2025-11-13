@@ -2,6 +2,7 @@
 Determining Current and Future UHI for Baltimore, MD
 Project Outline:
 Determine the current Baltimore Urban Heat Island (UHI) and use local weather data and weather data from the Climate Model Intercomparison Project (CMIP) to estimate the impact of Climate Change on the Baltimore UHI in 2050.
+---> Evaluate how well CMIP historical simulations capture the observed temperature patterns at urban and rural stations near Baltimore, and estimate the regional-scale bias in representing the Baltimore UHI.
 
 Using the following experiments from CMIP:
 Historical
